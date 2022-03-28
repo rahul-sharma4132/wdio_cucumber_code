@@ -1,0 +1,112 @@
+---
+- name: 'a feature file named "p1" with content:'
+  uid: b6b2e0e9-2847-4198-a168-f598b0a1040f
+  parameters:
+  - name: p1
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" imports the feature file "p2" to folder "p3"'
+  uid: 528ef583-bd38-4f66-b82f-c79c67ba3beb
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" should get a folder "p2" under the folder "p3" with the scenarios:'
+  uid: 834b8931-b97f-4fff-9673-e0c1387087fe
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: two scenarios
+  uid: 23343f63-a3dd-4ee2-8ddb-d8fba3288fa4
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" renames globally the step "p2"response"p3" by "p4"response"p5"'
+  uid: 8e1620db-172a-4356-8777-3e62bec2d4cf
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: p4
+  - name: p5
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'the scenarios using step "p1"response"p2" should be:'
+  uid: 3bcacc7c-b3c1-4398-ab11-6eb7b9fb8d15
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob creates a new step "p1"day"p2"
+  uid: ea6fc735-c056-4ac3-b105-eeae125370c6
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: changes the two scenarios as
+  uid: 57ffee9a-f565-4a67-bd6f-e98af2175aca
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob has only the step "p1"day"p2" to maintain instead of these two
+  uid: fc3af77b-04ea-4954-a21a-3d37a76d5c8b
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" adds a new scenario "p2" with the content'
+  uid: 141f2491-6189-45d4-974d-6d0f90b7b564
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the datatable
+  uid: f537bf73-f027-4ea6-af9a-f494ea131145
+  parameters:
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" has a scenario "p2" to describe the same behaviour than these scenarios'
+  uid: 0c5a7109-7407-4186-a009-9143b1fa8a87
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'a folder "p1" with the scenarios:'
+  uid: 5b1339c5-94f6-4979-81ab-f48789bf6441
+  parameters:
+  - name: p1
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" download folder "p2"'
+  uid: 46f89c6d-17d3-4f3c-8f8a-be5095ab7340
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" should get a feature file "p2" with content:'
+  uid: 8197473b-b56a-42c5-85e4-9839f2c647dc
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am on the login page
+  uid: dad159bc-468a-414a-8f22-5fad5d07bfb1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I login with <username> and <password>
+  uid: c5b9194b-fd51-4de6-9714-a9f633a8f9ab
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I should see a flash message saying "p1"
+  uid: ea4b6112-7e60-4799-b8b2-06a528fba11f
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
